@@ -57,6 +57,13 @@ class SplashViewController: UIViewController {
         pageChangedTo(index: index)
     }
     
+    func goToMenu() {
+        UserDefaults.standard.set(true, forKey: .hasLaunchedBeforeKey)
+        let menuVC = MenuViewController(nibName: "MenuViewController", bundle: nil)
+        let navigationController = NavigationViewController(rootViewController: menuVC)
+        navigationController.setAsRoot()
+    }
+    
     @IBAction func chooseFirstPage(_ sender: UIButton) {
         setCurrentPage(index: 0)
     }
@@ -66,15 +73,14 @@ class SplashViewController: UIViewController {
     }
 
     @IBAction func clickedSkip(_ sender: UIButton) {
+        goToMenu()
     }
     
     @IBAction func clickedNext(_ sender: UIButton) {
         if currentIndex == 0 {
             setCurrentPage(index: 1)
         } else {
-            UserDefaults.standard.set(true, forKey: .hasLaunchedBeforeKey)
-            let homeVC = UIStoryboard(name: "TabBar", bundle: .main).instantiateViewController(withIdentifier: "TabBarController")
-            homeVC.setAsRoot()
+            goToMenu()
         }
     }
     
