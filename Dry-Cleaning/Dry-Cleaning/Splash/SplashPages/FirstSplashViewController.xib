@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FirstSplashViewController" customModule="Dry_Cleaning" customModuleProvider="target">
+            <connections>
+                <outlet property="descriptionLabel" destination="a2f-He-8o8" id="O8D-Ka-yOM"/>
+                <outlet property="pageImageView" destination="PZr-N4-ppq" id="cjs-5d-Pkb"/>
+                <outlet property="titleLabel" destination="Lx7-5e-eHq" id="wZn-68-aZT"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="OnBoard1" translatesAutoresizingMaskIntoConstraints="NO" id="PZr-N4-ppq">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Monitor the care of your pets" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lx7-5e-eHq">
+                    <rect key="frame" x="32" y="64" width="329" height="28"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="24"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Record feeding schedules, walk times, and other important points of care" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a2f-He-8o8">
+                    <rect key="frame" x="32" y="102" width="329" height="39.666666666666657"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                    <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="0.5045271109271523" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="PZr-N4-ppq" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="AWE-1u-yjv"/>
+                <constraint firstItem="PZr-N4-ppq" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="E46-9J-C4p"/>
+                <constraint firstAttribute="trailing" secondItem="PZr-N4-ppq" secondAttribute="trailing" id="KlY-R7-x1W"/>
+                <constraint firstAttribute="trailing" secondItem="Lx7-5e-eHq" secondAttribute="trailing" constant="32" id="L0f-PF-1Bj"/>
+                <constraint firstItem="Lx7-5e-eHq" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="Q2R-5O-Fqo"/>
+                <constraint firstAttribute="trailing" secondItem="a2f-He-8o8" secondAttribute="trailing" constant="32" id="YV1-vy-6Q4"/>
+                <constraint firstItem="a2f-He-8o8" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="32" id="Zka-h3-Tfu"/>
+                <constraint firstItem="Lx7-5e-eHq" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="32" id="gd8-cy-dlz"/>
+                <constraint firstItem="a2f-He-8o8" firstAttribute="top" secondItem="Lx7-5e-eHq" secondAttribute="bottom" constant="10" id="oJM-jo-wbA"/>
+                <constraint firstAttribute="bottom" secondItem="PZr-N4-ppq" secondAttribute="bottom" id="qDo-yR-X0r"/>
+            </constraints>
+            <point key="canvasLocation" x="46.564885496183201" y="20.422535211267608"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="OnBoard1" width="390" height="844"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
