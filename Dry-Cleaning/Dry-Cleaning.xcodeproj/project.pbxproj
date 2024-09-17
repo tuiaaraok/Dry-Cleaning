@@ -24,10 +24,6 @@
 		6B56F8512C98C55800A11B65 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6B56F8502C98C55800A11B65 /* Base */; };
 		6B56F85A2C98C73700A11B65 /* SplashPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B56F8592C98C73700A11B65 /* SplashPageViewController.swift */; };
 		6B56F85B2C98C78300A11B65 /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B56F8472C98C55600A11B65 /* Splash.storyboard */; };
-		6B56F8612C98C97500A11B65 /* SFProText-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B56F85F2C98C93700A11B65 /* SFProText-Bold.ttf */; };
-		6B56F8622C98C97700A11B65 /* SFProText-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B56F85D2C98C93700A11B65 /* SFProText-Medium.ttf */; };
-		6B56F8632C98C97A00A11B65 /* SFProText-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B56F85E2C98C93700A11B65 /* SFProText-Regular.ttf */; };
-		6B56F8642C98C97C00A11B65 /* SFProText-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B56F8602C98C93700A11B65 /* SFProText-Semibold.ttf */; };
 		6B56F8672C98C99300A11B65 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B56F8662C98C99300A11B65 /* Font.swift */; };
 		6B56F8692C98C9A800A11B65 /* StringKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B56F8682C98C9A800A11B65 /* StringKey.swift */; };
 		6B56F86B2C98C9FF00A11B65 /* BaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B56F86A2C98C9FF00A11B65 /* BaseButton.swift */; };
@@ -37,6 +33,10 @@
 		6B9F6BAB2C9999D4003C2287 /* NumberTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9F6BAA2C9999D4003C2287 /* NumberTextField.swift */; };
 		6B9F6BAD2C99B348003C2287 /* FormatNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9F6BAC2C99B348003C2287 /* FormatNumber.swift */; };
 		6B9F6BB12C99BB18003C2287 /* MenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9F6BB02C99BB18003C2287 /* MenuViewModel.swift */; };
+		6BAB72FA2C9A36B70093AF8A /* SFProText-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6BAB72F62C9A36500093AF8A /* SFProText-Bold.ttf */; };
+		6BAB72FB2C9A36BA0093AF8A /* SFProText-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6BAB72F82C9A36690093AF8A /* SFProText-Semibold.ttf */; };
+		6BAB72FC2C9A36BC0093AF8A /* SFProText-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6BAB72F72C9A36620093AF8A /* SFProText-Medium.ttf */; };
+		6BAB72FD2C9A36BF0093AF8A /* SFProText-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6BAB72F92C9A36740093AF8A /* SFProText-Regular.ttf */; };
 		6BD441972C99CBBA00F4B25E /* CoolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD441962C99CBBA00F4B25E /* CoolView.swift */; };
 		6BD441992C99CBC800F4B25E /* CoolView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BD441982C99CBC800F4B25E /* CoolView.xib */; };
 		6BD4419F2C99D31F00F4B25E /* OrdersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BD4419E2C99D31F00F4B25E /* OrdersViewController.xib */; };
@@ -77,10 +77,6 @@
 		6B56F8502C98C55800A11B65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B56F8522C98C55800A11B65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B56F8592C98C73700A11B65 /* SplashPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashPageViewController.swift; sourceTree = "<group>"; };
-		6B56F85D2C98C93700A11B65 /* SFProText-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFProText-Medium.ttf"; path = "../../../../School-Universitet/Universitet/Splash/Pager/Fonts/SFProText-Medium.ttf"; sourceTree = "<group>"; };
-		6B56F85E2C98C93700A11B65 /* SFProText-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFProText-Regular.ttf"; path = "../../../../School-Universitet/Universitet/Splash/Pager/Fonts/SFProText-Regular.ttf"; sourceTree = "<group>"; };
-		6B56F85F2C98C93700A11B65 /* SFProText-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFProText-Bold.ttf"; path = "../../../../School-Universitet/Universitet/Splash/Pager/Fonts/SFProText-Bold.ttf"; sourceTree = "<group>"; };
-		6B56F8602C98C93700A11B65 /* SFProText-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFProText-Semibold.ttf"; path = "../../../../School-Universitet/Universitet/Splash/Pager/Fonts/SFProText-Semibold.ttf"; sourceTree = "<group>"; };
 		6B56F8662C98C99300A11B65 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 		6B56F8682C98C9A800A11B65 /* StringKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringKey.swift; sourceTree = "<group>"; };
 		6B56F86A2C98C9FF00A11B65 /* BaseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButton.swift; sourceTree = "<group>"; };
@@ -90,6 +86,10 @@
 		6B9F6BAA2C9999D4003C2287 /* NumberTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberTextField.swift; sourceTree = "<group>"; };
 		6B9F6BAC2C99B348003C2287 /* FormatNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatNumber.swift; sourceTree = "<group>"; };
 		6B9F6BB02C99BB18003C2287 /* MenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewModel.swift; sourceTree = "<group>"; };
+		6BAB72F62C9A36500093AF8A /* SFProText-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFProText-Bold.ttf"; path = "../../../../../../Downloads/San Francisco Pro Text (1)/SFProText-Bold.ttf"; sourceTree = "<group>"; };
+		6BAB72F72C9A36620093AF8A /* SFProText-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFProText-Medium.ttf"; path = "../../../../../../Downloads/San Francisco Pro Text (1)/SFProText-Medium.ttf"; sourceTree = "<group>"; };
+		6BAB72F82C9A36690093AF8A /* SFProText-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFProText-Semibold.ttf"; path = "../../../../../../Downloads/San Francisco Pro Text (1)/SFProText-Semibold.ttf"; sourceTree = "<group>"; };
+		6BAB72F92C9A36740093AF8A /* SFProText-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFProText-Regular.ttf"; path = "../../../../../../Downloads/San Francisco Pro Text (1)/SFProText-Regular.ttf"; sourceTree = "<group>"; };
 		6BD441962C99CBBA00F4B25E /* CoolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolView.swift; sourceTree = "<group>"; };
 		6BD441982C99CBC800F4B25E /* CoolView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoolView.xib; sourceTree = "<group>"; };
 		6BD4419D2C99D31F00F4B25E /* OrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersViewController.swift; sourceTree = "<group>"; };
@@ -234,10 +234,10 @@
 		6B56F85C2C98C90000A11B65 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				6B56F85F2C98C93700A11B65 /* SFProText-Bold.ttf */,
-				6B56F85D2C98C93700A11B65 /* SFProText-Medium.ttf */,
-				6B56F85E2C98C93700A11B65 /* SFProText-Regular.ttf */,
-				6B56F8602C98C93700A11B65 /* SFProText-Semibold.ttf */,
+				6BAB72F62C9A36500093AF8A /* SFProText-Bold.ttf */,
+				6BAB72F82C9A36690093AF8A /* SFProText-Semibold.ttf */,
+				6BAB72F72C9A36620093AF8A /* SFProText-Medium.ttf */,
+				6BAB72F92C9A36740093AF8A /* SFProText-Regular.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -475,15 +475,15 @@
 				6BD441B32C9A173800F4B25E /* StatisticsViewController.xib in Resources */,
 				6B56F84E2C98C55800A11B65 /* Assets.xcassets in Resources */,
 				6B56F8512C98C55800A11B65 /* Base in Resources */,
-				6B56F8632C98C97A00A11B65 /* SFProText-Regular.ttf in Resources */,
+				6BAB72FD2C9A36BF0093AF8A /* SFProText-Regular.ttf in Resources */,
+				6BAB72FC2C9A36BC0093AF8A /* SFProText-Medium.ttf in Resources */,
+				6BAB72FA2C9A36B70093AF8A /* SFProText-Bold.ttf in Resources */,
 				6BD441A32C99D3DD00F4B25E /* OrderTableViewCell.xib in Resources */,
-				6B56F8612C98C97500A11B65 /* SFProText-Bold.ttf in Resources */,
 				6BD4419F2C99D31F00F4B25E /* OrdersViewController.xib in Resources */,
-				6B56F8622C98C97700A11B65 /* SFProText-Medium.ttf in Resources */,
-				6B56F8642C98C97C00A11B65 /* SFProText-Semibold.ttf in Resources */,
 				6BE2A0BF2C98DA6200490224 /* MenuViewController.xib in Resources */,
 				6B56F8492C98C55600A11B65 /* Base in Resources */,
 				6B56F85B2C98C78300A11B65 /* Splash.storyboard in Resources */,
+				6BAB72FB2C9A36BA0093AF8A /* SFProText-Semibold.ttf in Resources */,
 				6BD441992C99CBC800F4B25E /* CoolView.xib in Resources */,
 				6BD441AD2C99F97800F4B25E /* EmptyCompletedTableViewCell.xib in Resources */,
 			);
