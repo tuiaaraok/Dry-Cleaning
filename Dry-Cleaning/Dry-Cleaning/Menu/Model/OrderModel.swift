@@ -8,6 +8,7 @@
 import Foundation
 
 struct OrderModel {
+    var id: UUID
     var photo: NSData
     var name: String
     var materials: [MaterialModel]
@@ -15,6 +16,7 @@ struct OrderModel {
     var cost: String
     var date: String
     var time: String
+    var isCompleted: Bool
 }
 
 struct MaterialModel {

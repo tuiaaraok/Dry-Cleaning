@@ -24,7 +24,7 @@ class MenuViewController: UIViewController {
         settingsButton.layer.cornerRadius = 22
         dateLabel.text = Date().dateFormat()
         settingsButton.setImage(UIImage(named: "Settings"), for: .normal)
-                setNavigationBar(title: nil, button: settingsButton)
+        setNavigationBar(title: nil, button: settingsButton)
         subscribe()
     }
     
@@ -54,6 +54,8 @@ class MenuViewController: UIViewController {
     }
     
     @IBAction func clickedMyOrders(_ sender: UIButton) {
+        let orderVC = OrdersViewController(nibName: "OrdersViewController", bundle: nil)
+        self.navigationController?.pushViewController(orderVC, animated: true)
     }
     
     @IBAction func clickedStatistics(_ sender: UIButton) {

@@ -67,10 +67,14 @@ class OrderViewModel {
         self.isValid = (!(name?.isEmpty ?? true) && photo != nil && !(materials.contains(where: { $0.name.isEmpty || $0.percent.isEmpty })) && !(weight?.isEmpty ?? true) && !(cost?.isEmpty ?? true) && !(date?.isEmpty ?? true) && !(time?.isEmpty ?? true))
     }
     
-    func createOrder() -> Bool {
-        guard let name = name, let photo = photo, let cost = cost, let weight = weight, let date = date, let time = time else { return false }
-        let orderModel = OrderModel(photo: photo, name: name, materials: materials, weight: weight, cost: cost, date: date, time: time)
-        return CoreDataManager.shared.saveOrder(orderModel: orderModel)
+    func createOrder(completion: @escaping (Bool) -> Void) {
+        guard let name = name, let photo = photo, let cost = cost, let weight = weight, let date = date, let time = time else { completion(false)
+            return
+        }
+        let orderModel = OrderModel(id: UUID(), photo: photo, name: name, materials: materials, weight: weight, cost: cost, date: date, time: time, isCompleted: false)
+        CoreDataManager.shared.saveOrder(orderModel: orderModel, completion: { success in
+            completion(success)
+        })
     }
     
     func clear() {

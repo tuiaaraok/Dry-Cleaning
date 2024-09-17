@@ -13,7 +13,10 @@ class MenuViewModel {
     private init() {}
     
     func fetchData() {
-        orders = CoreDataManager.shared.fetchOrders()
+        CoreDataManager.shared.fetchOrders { [weak self] orders in
+            guard let self = self else { return }
+            self.orders = orders
+        }
         print(orders)
     }
 }

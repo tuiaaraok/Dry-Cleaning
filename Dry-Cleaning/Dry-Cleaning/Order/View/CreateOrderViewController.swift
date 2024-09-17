@@ -132,17 +132,19 @@ class CreateOrderViewController: UIViewController {
         self.navigationController?.popViewController(animated: true)
     }
     @IBAction func clickedCreate(_ sender: UIButton) {
-        if viewModel.createOrder() {
-            let coolView = CoolView.instanceFromNib()
-            coolView.completion = { [weak self] in
-                guard let self = self else { return }
-                self.navigationController?.popViewController(animated: true)
+        viewModel.createOrder(completion: { [weak self] success in
+            if success {
+                let coolView = CoolView.instanceFromNib()
+                coolView.completion = { [weak self] in
+                    guard let self = self else { return }
+                    self.navigationController?.popViewController(animated: true)
+                }
+                if let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
+                   let keyWindow = windowScene.windows.first(where: { $0.isKeyWindow }) {
+                    keyWindow.addSubview(coolView)
+                }
             }
-            if let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
-               let keyWindow = windowScene.windows.first(where: { $0.isKeyWindow }) {
-                keyWindow.addSubview(coolView)
-            }
-        }
+        })
     }
     
     deinit {
