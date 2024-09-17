@@ -98,17 +98,6 @@ extension OrdersViewController: UITableViewDelegate, UITableViewDataSource {
         return section == 0 ? 20 : 0
     }
     
-//    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-//        return section == 1 ? "Completed" : nil
-//    }
-    
-//    func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
-//        if let header = view as? UITableViewHeaderFooterView {
-//            header.textLabel?.textColor = .white.withAlphaComponent(0.5)
-//            header.textLabel?.font = .semibold(size: 18)
-//        }
-//    }
-    
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         if section == 0 { return nil }
         let headerView = UIView()

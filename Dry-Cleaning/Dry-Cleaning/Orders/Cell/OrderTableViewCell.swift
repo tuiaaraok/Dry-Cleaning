@@ -45,7 +45,7 @@ class OrderTableViewCell: UITableViewCell {
         bgViewLeftConst.constant = order.isCompleted ? 45 : 24
         completedButton.isHidden = order.isCompleted
         photoImageView.image = UIImage(data: order.photo as Data)
-        dateLabel.text = order.date
+        dateLabel.text = order.date.dateFormat()
         timeLabel.text = order.time
         dateLabel.layer.cornerRadius = 12
         dateLabel.layer.masksToBounds = true

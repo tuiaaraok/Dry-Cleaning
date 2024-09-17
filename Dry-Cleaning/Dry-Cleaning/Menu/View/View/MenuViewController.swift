@@ -37,11 +37,12 @@ class MenuViewController: UIViewController {
             .receive(on: DispatchQueue.main)
             .sink { [weak self] orders in
                 guard let self = self else { return }
-                if orders.isEmpty {
+                let completedOrders = orders.filter({ !$0.isCompleted })
+                if completedOrders.isEmpty {
                     self.ordersCountLabel.text = "You have no warrants"
                     self.photoImageView.image = UIImage(named: "NotOrders")
                 } else {
-                    self.ordersCountLabel.text = "You have \(orders.count) orders"
+                    self.ordersCountLabel.text = "You have \(completedOrders.count) orders"
                     self.photoImageView.image = UIImage(named: "Bell")
                 }
             }
@@ -59,5 +60,8 @@ class MenuViewController: UIViewController {
     }
     
     @IBAction func clickedStatistics(_ sender: UIButton) {
+        let statisticsVC = StatisticsViewController(nibName: "StatisticsViewController", bundle: nil)
+        self.navigationController?.pushViewController(statisticsVC, animated: true)
+
     }
 }

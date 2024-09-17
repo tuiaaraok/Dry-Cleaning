@@ -17,7 +17,7 @@ class OrderViewModel {
     @Published var materials: [MaterialModel] = [MaterialModel(name: "", percent: "")]
     var weight: String?
     var cost: String?
-    var date: String?
+    var date: Date?
     var time: String?
     var previousClassesCount: Int = 0
 
@@ -49,7 +49,7 @@ class OrderViewModel {
         materials[index].percent = percent
     }
     
-    func setDate(date: String?) {
+    func setDate(date: Date?) {
         self.date = date
         checkValidation()
     }
@@ -64,7 +64,7 @@ class OrderViewModel {
     }
     
     func checkValidation() {
-        self.isValid = (!(name?.isEmpty ?? true) && photo != nil && !(materials.contains(where: { $0.name.isEmpty || $0.percent.isEmpty })) && !(weight?.isEmpty ?? true) && !(cost?.isEmpty ?? true) && !(date?.isEmpty ?? true) && !(time?.isEmpty ?? true))
+        self.isValid = (!(name?.isEmpty ?? true) && photo != nil && !(materials.contains(where: { $0.name.isEmpty || $0.percent.isEmpty })) && !(weight?.isEmpty ?? true) && !(cost?.isEmpty ?? true) && (date != nil) && !(time?.isEmpty ?? true))
     }
     
     func createOrder(completion: @escaping (Bool) -> Void) {

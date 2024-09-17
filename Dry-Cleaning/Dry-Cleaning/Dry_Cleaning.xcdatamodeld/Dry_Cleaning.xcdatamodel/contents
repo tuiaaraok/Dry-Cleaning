@@ -7,7 +7,7 @@
     </entity>
     <entity name="Order" representedClassName="Order" syncable="YES" codeGenerationType="class">
         <attribute name="cost" optional="YES" attributeType="String"/>
-        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
         <attribute name="isCompleted" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
         <attribute name="name" optional="YES" attributeType="String"/>

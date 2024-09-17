@@ -46,6 +46,10 @@
 		6BD441A72C99DAD100F4B25E /* OrdersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD441A62C99DAD100F4B25E /* OrdersViewModel.swift */; };
 		6BD441AD2C99F97800F4B25E /* EmptyCompletedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BD441AC2C99F97800F4B25E /* EmptyCompletedTableViewCell.xib */; };
 		6BD441AE2C99F97800F4B25E /* EmptyCompletedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD441AB2C99F97800F4B25E /* EmptyCompletedTableViewCell.swift */; };
+		6BD441B32C9A173800F4B25E /* StatisticsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BD441B22C9A173800F4B25E /* StatisticsViewController.xib */; };
+		6BD441B42C9A173800F4B25E /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD441B12C9A173800F4B25E /* StatisticsViewController.swift */; };
+		6BD441B82C9A1DF700F4B25E /* StatisticsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD441B72C9A1DF700F4B25E /* StatisticsViewModel.swift */; };
+		6BD441BB2C9A1ECF00F4B25E /* StatisticsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD441BA2C9A1ECF00F4B25E /* StatisticsModel.swift */; };
 		6BE2A0BF2C98DA6200490224 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BE2A0BE2C98DA6200490224 /* MenuViewController.xib */; };
 		6BE2A0C02C98DA6200490224 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE2A0BD2C98DA6200490224 /* MenuViewController.swift */; };
 		6BE2A0C22C98DC1F00490224 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE2A0C12C98DC1F00490224 /* ViewController.swift */; };
@@ -93,6 +97,10 @@
 		6BD441A62C99DAD100F4B25E /* OrdersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersViewModel.swift; sourceTree = "<group>"; };
 		6BD441AB2C99F97800F4B25E /* EmptyCompletedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyCompletedTableViewCell.swift; sourceTree = "<group>"; };
 		6BD441AC2C99F97800F4B25E /* EmptyCompletedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyCompletedTableViewCell.xib; sourceTree = "<group>"; };
+		6BD441B12C9A173800F4B25E /* StatisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
+		6BD441B22C9A173800F4B25E /* StatisticsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StatisticsViewController.xib; sourceTree = "<group>"; };
+		6BD441B72C9A1DF700F4B25E /* StatisticsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewModel.swift; sourceTree = "<group>"; };
+		6BD441BA2C9A1ECF00F4B25E /* StatisticsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsModel.swift; sourceTree = "<group>"; };
 		6BE2A0BD2C98DA6200490224 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		6BE2A0BE2C98DA6200490224 /* MenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
 		6BE2A0C12C98DC1F00490224 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -191,6 +199,7 @@
 		6B56F8402C98C55600A11B65 /* Dry-Cleaning */ = {
 			isa = PBXGroup;
 			children = (
+				6BD441AF2C9A171C00F4B25E /* Statistics */,
 				6BD4419A2C99D2FC00F4B25E /* Orders */,
 				6B08EF5E2C98EA6F00A218E2 /* CoreData */,
 				6B08EF712C98F69400A218E2 /* Order */,
@@ -335,6 +344,41 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		6BD441AF2C9A171C00F4B25E /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				6BD441B92C9A1EC200F4B25E /* Model */,
+				6BD441B52C9A1DE000F4B25E /* ViewModel */,
+				6BD441B02C9A172700F4B25E /* View */,
+			);
+			path = Statistics;
+			sourceTree = "<group>";
+		};
+		6BD441B02C9A172700F4B25E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6BD441B12C9A173800F4B25E /* StatisticsViewController.swift */,
+				6BD441B22C9A173800F4B25E /* StatisticsViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6BD441B52C9A1DE000F4B25E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6BD441B72C9A1DF700F4B25E /* StatisticsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6BD441B92C9A1EC200F4B25E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6BD441BA2C9A1ECF00F4B25E /* StatisticsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		6BE2A0BC2C98DA2900490224 /* Menu */ = {
 			isa = PBXGroup;
 			children = (
@@ -405,6 +449,7 @@
 				6B08EF802C996A5C00A218E2 /* MaterialTableViewCell.xib in Resources */,
 				6B56F8922C98CD4100A11B65 /* FirstSplashViewController.xib in Resources */,
 				6B08EF762C98F6C600A218E2 /* CreateOrderViewController.xib in Resources */,
+				6BD441B32C9A173800F4B25E /* StatisticsViewController.xib in Resources */,
 				6B56F84E2C98C55800A11B65 /* Assets.xcassets in Resources */,
 				6B56F8512C98C55800A11B65 /* Base in Resources */,
 				6B56F8632C98C97A00A11B65 /* SFProText-Regular.ttf in Resources */,
@@ -436,6 +481,8 @@
 				6BD441AE2C99F97800F4B25E /* EmptyCompletedTableViewCell.swift in Sources */,
 				6B9F6BB12C99BB18003C2287 /* MenuViewModel.swift in Sources */,
 				6BD441972C99CBBA00F4B25E /* CoolView.swift in Sources */,
+				6BD441BB2C9A1ECF00F4B25E /* StatisticsModel.swift in Sources */,
+				6BD441B82C9A1DF700F4B25E /* StatisticsViewModel.swift in Sources */,
 				6B9F6BA92C9981F5003C2287 /* DateFormatter.swift in Sources */,
 				6B9F6BAD2C99B348003C2287 /* FormatNumber.swift in Sources */,
 				6B08EF752C98F6C600A218E2 /* CreateOrderViewController.swift in Sources */,
@@ -455,6 +502,7 @@
 				6BD441A72C99DAD100F4B25E /* OrdersViewModel.swift in Sources */,
 				6B9F6BAB2C9999D4003C2287 /* NumberTextField.swift in Sources */,
 				6B08EF7B2C99658F00A218E2 /* OrderViewModel.swift in Sources */,
+				6BD441B42C9A173800F4B25E /* StatisticsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

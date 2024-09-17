@@ -66,7 +66,7 @@ class CoreDataManager {
                     let name = order.value(forKey: "name") as? String ?? "No Name"
                     let weight = order.value(forKey: "weight") as? String ?? "No Weight"
                     let cost = order.value(forKey: "cost") as? String ?? "No Cost"
-                    let date = order.value(forKey: "date") as? String ?? "No Date"
+                    let date = order.value(forKey: "date") as? Date ?? Date()
                     let time = order.value(forKey: "time") as? String ?? "No Time"
                     let isCompleted = order.value(forKey: "isCompleted") as? Bool ?? false
                     let photoData = order.value(forKey: "photo") as? NSData ?? NSData()

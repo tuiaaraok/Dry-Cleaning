@@ -80,10 +80,11 @@ class CreateOrderViewController: UIViewController {
         let hourDate = sender.date
         let hourFormmater = DateFormatter()
         hourFormmater .locale = Locale.current
-        hourFormmater.dateFormat = "dd.MM.YY"
+        hourFormmater.dateFormat = "dd.MM.YYYY"
         let formatedDate = hourFormmater.string(from: hourDate)
         dateTextField.text = formatedDate
-        viewModel.setDate(date: formatedDate)
+        
+        viewModel.setDate(date: sender.date)
     }
     
     func subscribe() {

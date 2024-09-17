@@ -14,7 +14,7 @@ struct OrderModel {
     var materials: [MaterialModel]
     var weight: String
     var cost: String
-    var date: String
+    var date: Date
     var time: String
     var isCompleted: Bool
 }
