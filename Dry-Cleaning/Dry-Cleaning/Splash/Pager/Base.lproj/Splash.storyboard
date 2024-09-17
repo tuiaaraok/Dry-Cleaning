@@ -12,7 +12,7 @@
         <!--Splash View Controller-->
         <scene sceneID="9r1-U7-qZd">
             <objects>
-                <viewController id="vdz-1z-zO1" customClass="SplashViewController" customModule="Dry_Cleaning" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SplashViewController" id="vdz-1z-zO1" customClass="SplashViewController" customModule="Dry_Cleaning" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="xQB-I9-XRV">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -152,6 +152,7 @@
                                 </subviews>
                             </stackView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="srl-lM-Kny"/>
                         <color key="backgroundColor" name="Background"/>
                         <constraints>
                             <constraint firstItem="e4v-R9-lvO" firstAttribute="leading" secondItem="xQB-I9-XRV" secondAttribute="leading" constant="28" id="2D2-rV-f1v"/>

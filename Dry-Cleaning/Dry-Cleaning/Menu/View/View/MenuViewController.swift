@@ -24,6 +24,7 @@ class MenuViewController: UIViewController {
         settingsButton.layer.cornerRadius = 22
         dateLabel.text = Date().dateFormat()
         settingsButton.setImage(UIImage(named: "Settings"), for: .normal)
+        settingsButton.addTarget(self, action: #selector(openSettings), for: .touchUpInside)
         setNavigationBar(title: nil, button: settingsButton)
         subscribe()
     }
@@ -47,6 +48,11 @@ class MenuViewController: UIViewController {
                 }
             }
             .store(in: &cancellables)
+    }
+    
+    @objc func openSettings() {
+        let settingsVC = SettingsViewController(nibName: "SettingsViewController", bundle: nil)
+        self.navigationController?.pushViewController(settingsVC, animated: true)
     }
     
     @IBAction func clickedCreateOrder(_ sender: UIButton) {

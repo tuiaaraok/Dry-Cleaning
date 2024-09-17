@@ -41,9 +41,13 @@ class SplashViewController: UIViewController {
         case 0:
             firstDot.backgroundColor = .white
             secondDot.backgroundColor = .black.withAlphaComponent(0.5)
+            firstDotWidthConst.constant = 40
+            secondDotWidthConst.constant = 11
         case 1:
             secondDot.backgroundColor = .white
             firstDot.backgroundColor = .black.withAlphaComponent(0.5)
+            secondDotWidthConst.constant = 40
+            firstDotWidthConst.constant = 11
         default:
             break
         }
