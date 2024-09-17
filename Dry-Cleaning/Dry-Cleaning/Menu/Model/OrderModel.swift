@@ -7,8 +7,8 @@
 
 import Foundation
 
-struct OrderModel: Codable {
-    var photo: String
+struct OrderModel {
+    var photo: NSData
     var name: String
     var materials: [MaterialModel]
     var weight: String
@@ -17,7 +17,7 @@ struct OrderModel: Codable {
     var time: String
 }
 
-struct MaterialModel: Codable {
+struct MaterialModel {
     var name: String
     var percent: String
 }

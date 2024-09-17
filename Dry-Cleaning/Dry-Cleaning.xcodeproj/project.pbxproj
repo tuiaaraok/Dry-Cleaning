@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		6B08EF552C98E67700A218E2 /* OrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B08EF542C98E67700A218E2 /* OrderModel.swift */; };
 		6B08EF602C98EA7C00A218E2 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B08EF5F2C98EA7C00A218E2 /* CoreDataManager.swift */; };
+		6B08EF752C98F6C600A218E2 /* CreateOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B08EF732C98F6C600A218E2 /* CreateOrderViewController.swift */; };
+		6B08EF762C98F6C600A218E2 /* CreateOrderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B08EF742C98F6C600A218E2 /* CreateOrderViewController.xib */; };
+		6B08EF782C98FE6000A218E2 /* BaseTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B08EF772C98FE6000A218E2 /* BaseTextField.swift */; };
+		6B08EF7B2C99658F00A218E2 /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B08EF7A2C99658F00A218E2 /* OrderViewModel.swift */; };
+		6B08EF7F2C996A5C00A218E2 /* MaterialTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B08EF7D2C996A5C00A218E2 /* MaterialTableViewCell.swift */; };
+		6B08EF802C996A5C00A218E2 /* MaterialTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B08EF7E2C996A5C00A218E2 /* MaterialTableViewCell.xib */; };
 		6B56F8422C98C55600A11B65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B56F8412C98C55600A11B65 /* AppDelegate.swift */; };
 		6B56F8442C98C55600A11B65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B56F8432C98C55600A11B65 /* SceneDelegate.swift */; };
 		6B56F8462C98C55600A11B65 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B56F8452C98C55600A11B65 /* SplashViewController.swift */; };
@@ -27,6 +33,12 @@
 		6B56F86B2C98C9FF00A11B65 /* BaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B56F86A2C98C9FF00A11B65 /* BaseButton.swift */; };
 		6B56F8922C98CD4100A11B65 /* FirstSplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B56F8912C98CD4100A11B65 /* FirstSplashViewController.xib */; };
 		6B56F8932C98CD4100A11B65 /* FirstSplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B56F8902C98CD4100A11B65 /* FirstSplashViewController.swift */; };
+		6B9F6BA92C9981F5003C2287 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9F6BA82C9981F5003C2287 /* DateFormatter.swift */; };
+		6B9F6BAB2C9999D4003C2287 /* NumberTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9F6BAA2C9999D4003C2287 /* NumberTextField.swift */; };
+		6B9F6BAD2C99B348003C2287 /* FormatNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9F6BAC2C99B348003C2287 /* FormatNumber.swift */; };
+		6B9F6BB12C99BB18003C2287 /* MenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9F6BB02C99BB18003C2287 /* MenuViewModel.swift */; };
+		6BD441972C99CBBA00F4B25E /* CoolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD441962C99CBBA00F4B25E /* CoolView.swift */; };
+		6BD441992C99CBC800F4B25E /* CoolView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BD441982C99CBC800F4B25E /* CoolView.xib */; };
 		6BE2A0BF2C98DA6200490224 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BE2A0BE2C98DA6200490224 /* MenuViewController.xib */; };
 		6BE2A0C02C98DA6200490224 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE2A0BD2C98DA6200490224 /* MenuViewController.swift */; };
 		6BE2A0C22C98DC1F00490224 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE2A0C12C98DC1F00490224 /* ViewController.swift */; };
@@ -36,6 +48,12 @@
 /* Begin PBXFileReference section */
 		6B08EF542C98E67700A218E2 /* OrderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderModel.swift; sourceTree = "<group>"; };
 		6B08EF5F2C98EA7C00A218E2 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		6B08EF732C98F6C600A218E2 /* CreateOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrderViewController.swift; sourceTree = "<group>"; };
+		6B08EF742C98F6C600A218E2 /* CreateOrderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateOrderViewController.xib; sourceTree = "<group>"; };
+		6B08EF772C98FE6000A218E2 /* BaseTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTextField.swift; sourceTree = "<group>"; };
+		6B08EF7A2C99658F00A218E2 /* OrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewModel.swift; sourceTree = "<group>"; };
+		6B08EF7D2C996A5C00A218E2 /* MaterialTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialTableViewCell.swift; sourceTree = "<group>"; };
+		6B08EF7E2C996A5C00A218E2 /* MaterialTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MaterialTableViewCell.xib; sourceTree = "<group>"; };
 		6B56F83E2C98C55600A11B65 /* Dry-Cleaning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dry-Cleaning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B56F8412C98C55600A11B65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B56F8432C98C55600A11B65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +73,12 @@
 		6B56F86A2C98C9FF00A11B65 /* BaseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButton.swift; sourceTree = "<group>"; };
 		6B56F8902C98CD4100A11B65 /* FirstSplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstSplashViewController.swift; sourceTree = "<group>"; };
 		6B56F8912C98CD4100A11B65 /* FirstSplashViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstSplashViewController.xib; sourceTree = "<group>"; };
+		6B9F6BA82C9981F5003C2287 /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
+		6B9F6BAA2C9999D4003C2287 /* NumberTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberTextField.swift; sourceTree = "<group>"; };
+		6B9F6BAC2C99B348003C2287 /* FormatNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatNumber.swift; sourceTree = "<group>"; };
+		6B9F6BB02C99BB18003C2287 /* MenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewModel.swift; sourceTree = "<group>"; };
+		6BD441962C99CBBA00F4B25E /* CoolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolView.swift; sourceTree = "<group>"; };
+		6BD441982C99CBC800F4B25E /* CoolView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoolView.xib; sourceTree = "<group>"; };
 		6BE2A0BD2C98DA6200490224 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		6BE2A0BE2C98DA6200490224 /* MenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
 		6BE2A0C12C98DC1F00490224 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -75,8 +99,8 @@
 		6B08EF522C98E65C00A218E2 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				6BE2A0BD2C98DA6200490224 /* MenuViewController.swift */,
-				6BE2A0BE2C98DA6200490224 /* MenuViewController.xib */,
+				6B9F6BAF2C99BB00003C2287 /* ViewModel */,
+				6B9F6BAE2C99BAF9003C2287 /* View */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -95,6 +119,43 @@
 				6B08EF5F2C98EA7C00A218E2 /* CoreDataManager.swift */,
 			);
 			path = CoreData;
+			sourceTree = "<group>";
+		};
+		6B08EF712C98F69400A218E2 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				6BD441952C99CBA100F4B25E /* CoolView */,
+				6B08EF7C2C996A4000A218E2 /* Cell */,
+				6B08EF792C99656900A218E2 /* ViewModel */,
+				6B08EF722C98F69A00A218E2 /* View */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+		6B08EF722C98F69A00A218E2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B08EF732C98F6C600A218E2 /* CreateOrderViewController.swift */,
+				6B08EF742C98F6C600A218E2 /* CreateOrderViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B08EF792C99656900A218E2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6B08EF7A2C99658F00A218E2 /* OrderViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6B08EF7C2C996A4000A218E2 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				6B08EF7D2C996A5C00A218E2 /* MaterialTableViewCell.swift */,
+				6B08EF7E2C996A5C00A218E2 /* MaterialTableViewCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		6B56F8352C98C55600A11B65 = {
@@ -116,6 +177,7 @@
 		6B56F8402C98C55600A11B65 /* Dry-Cleaning */ = {
 			isa = PBXGroup;
 			children = (
+				6B08EF712C98F69400A218E2 /* Order */,
 				6B08EF5E2C98EA6F00A218E2 /* CoreData */,
 				6BE2A0BC2C98DA2900490224 /* Menu */,
 				6B56F8652C98C98A00A11B65 /* Extension */,
@@ -158,6 +220,10 @@
 				6B56F8682C98C9A800A11B65 /* StringKey.swift */,
 				6B56F86A2C98C9FF00A11B65 /* BaseButton.swift */,
 				6BE2A0C12C98DC1F00490224 /* ViewController.swift */,
+				6B08EF772C98FE6000A218E2 /* BaseTextField.swift */,
+				6B9F6BA82C9981F5003C2287 /* DateFormatter.swift */,
+				6B9F6BAA2C9999D4003C2287 /* NumberTextField.swift */,
+				6B9F6BAC2C99B348003C2287 /* FormatNumber.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -180,6 +246,32 @@
 				6B56F8912C98CD4100A11B65 /* FirstSplashViewController.xib */,
 			);
 			path = SplashPages;
+			sourceTree = "<group>";
+		};
+		6B9F6BAE2C99BAF9003C2287 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6BE2A0BD2C98DA6200490224 /* MenuViewController.swift */,
+				6BE2A0BE2C98DA6200490224 /* MenuViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B9F6BAF2C99BB00003C2287 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6B9F6BB02C99BB18003C2287 /* MenuViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6BD441952C99CBA100F4B25E /* CoolView */ = {
+			isa = PBXGroup;
+			children = (
+				6BD441962C99CBBA00F4B25E /* CoolView.swift */,
+				6BD441982C99CBC800F4B25E /* CoolView.xib */,
+			);
+			path = CoolView;
 			sourceTree = "<group>";
 		};
 		6BE2A0BC2C98DA2900490224 /* Menu */ = {
@@ -249,7 +341,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B08EF802C996A5C00A218E2 /* MaterialTableViewCell.xib in Resources */,
 				6B56F8922C98CD4100A11B65 /* FirstSplashViewController.xib in Resources */,
+				6B08EF762C98F6C600A218E2 /* CreateOrderViewController.xib in Resources */,
 				6B56F84E2C98C55800A11B65 /* Assets.xcassets in Resources */,
 				6B56F8512C98C55800A11B65 /* Base in Resources */,
 				6B56F8632C98C97A00A11B65 /* SFProText-Regular.ttf in Resources */,
@@ -259,6 +353,7 @@
 				6BE2A0BF2C98DA6200490224 /* MenuViewController.xib in Resources */,
 				6B56F8492C98C55600A11B65 /* Base in Resources */,
 				6B56F85B2C98C78300A11B65 /* Splash.storyboard in Resources */,
+				6BD441992C99CBC800F4B25E /* CoolView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,8 +366,14 @@
 			files = (
 				6BE2A0C42C98DD8700490224 /* NavigationViewController.swift in Sources */,
 				6B56F84C2C98C55600A11B65 /* Dry_Cleaning.xcdatamodeld in Sources */,
+				6B08EF782C98FE6000A218E2 /* BaseTextField.swift in Sources */,
 				6BE2A0C02C98DA6200490224 /* MenuViewController.swift in Sources */,
 				6B08EF552C98E67700A218E2 /* OrderModel.swift in Sources */,
+				6B9F6BB12C99BB18003C2287 /* MenuViewModel.swift in Sources */,
+				6BD441972C99CBBA00F4B25E /* CoolView.swift in Sources */,
+				6B9F6BA92C9981F5003C2287 /* DateFormatter.swift in Sources */,
+				6B9F6BAD2C99B348003C2287 /* FormatNumber.swift in Sources */,
+				6B08EF752C98F6C600A218E2 /* CreateOrderViewController.swift in Sources */,
 				6B56F85A2C98C73700A11B65 /* SplashPageViewController.swift in Sources */,
 				6B56F86B2C98C9FF00A11B65 /* BaseButton.swift in Sources */,
 				6BE2A0C22C98DC1F00490224 /* ViewController.swift in Sources */,
@@ -283,6 +384,9 @@
 				6B56F8932C98CD4100A11B65 /* FirstSplashViewController.swift in Sources */,
 				6B08EF602C98EA7C00A218E2 /* CoreDataManager.swift in Sources */,
 				6B56F8692C98C9A800A11B65 /* StringKey.swift in Sources */,
+				6B08EF7F2C996A5C00A218E2 /* MaterialTableViewCell.swift in Sources */,
+				6B9F6BAB2C9999D4003C2287 /* NumberTextField.swift in Sources */,
+				6B08EF7B2C99658F00A218E2 /* OrderViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SFProText-Semibold.ttf">
+            <string>SFProText-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="81" id="KGk-i7-Jjw" customClass="MaterialTableViewCell" customModule="Dry_Cleaning" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="345" height="77"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="345" height="77"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" spacing="52" translatesAutoresizingMaskIntoConstraints="NO" id="1V1-7G-9Ir">
+                        <rect key="frame" x="0.0" y="25" width="345" height="52"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Cotton" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6YJ-Gf-zdZ" customClass="BaseTextField" customModule="Dry_Cleaning" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="193" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="e3b-hi-atr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="0%" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hJB-zP-a4p" customClass="BaseTextField" customModule="Dry_Cleaning" customModuleProvider="target">
+                                <rect key="frame" x="245" y="0.0" width="100" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="QJn-6E-hVa"/>
+                                    <constraint firstAttribute="width" constant="100" id="ysJ-Om-dC8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                            </textField>
+                        </subviews>
+                    </stackView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Material" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5YG-Y1-Oe2">
+                        <rect key="frame" x="0.0" y="0.0" width="72" height="21.666666666666668"/>
+                        <fontDescription key="fontDescription" name="SFProText-Semibold" family="SF Pro Text" pointSize="18"/>
+                        <color key="textColor" white="1" alpha="0.50147454469999997" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="%" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r4K-Nl-rek">
+                        <rect key="frame" x="244" y="0.0" width="100" height="21.666666666666668"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="eN4-d2-u6h"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="SFProText-Semibold" family="SF Pro Text" pointSize="18"/>
+                        <color key="textColor" white="1" alpha="0.50147454469999997" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" name="Background"/>
+                <constraints>
+                    <constraint firstItem="5YG-Y1-Oe2" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="ADv-Wt-Ifu"/>
+                    <constraint firstItem="r4K-Nl-rek" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="BGy-hA-Ocb"/>
+                    <constraint firstItem="1V1-7G-9Ir" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="BLf-QM-O9v"/>
+                    <constraint firstItem="1V1-7G-9Ir" firstAttribute="top" secondItem="5YG-Y1-Oe2" secondAttribute="bottom" constant="3.3333333333333321" id="MHM-7C-d2g"/>
+                    <constraint firstItem="r4K-Nl-rek" firstAttribute="centerY" secondItem="5YG-Y1-Oe2" secondAttribute="centerY" id="WIu-Wf-c0f"/>
+                    <constraint firstAttribute="trailing" secondItem="1V1-7G-9Ir" secondAttribute="trailing" id="eIY-M1-Uhx"/>
+                    <constraint firstAttribute="trailing" secondItem="r4K-Nl-rek" secondAttribute="trailing" constant="1" id="i9N-4R-x3q"/>
+                    <constraint firstAttribute="bottom" secondItem="1V1-7G-9Ir" secondAttribute="bottom" id="n7W-XA-nxM"/>
+                    <constraint firstItem="5YG-Y1-Oe2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="o8q-DT-EtX"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="nameTextField" destination="6YJ-Gf-zdZ" id="cmE-eO-vkF"/>
+                <outlet property="percentTextField" destination="hJB-zP-a4p" id="qAb-jq-maW"/>
+            </connections>
+            <point key="canvasLocation" x="96.946564885496173" y="19.366197183098592"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="Background">
+            <color red="0.59600001573562622" green="0.17599999904632568" blue="0.17599999904632568" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
