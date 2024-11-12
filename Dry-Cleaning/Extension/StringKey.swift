@@ -8,7 +8,7 @@
 import Foundation
 
 extension String {
-    static let hasLaunchedBeforeKey = "hasLaunchedBefore"
+    static let passedOnBoardKey = "passedOnBoard"
     static let days = "days"
     static let regular = "SFProText-Regular"
     static let medium = "SFProText-Medium"

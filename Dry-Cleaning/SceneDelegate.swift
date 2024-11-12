@@ -17,19 +17,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         let window = UIWindow(windowScene: windowScene)
         self.window = window
-        
-        let hasLaunchedBefore = UserDefaults.standard.bool(forKey: .hasLaunchedBeforeKey)
-        
-        if hasLaunchedBefore {
-                let menuViewController = MenuViewController(nibName: "MenuViewController", bundle: nil)
-                let navigationController = UINavigationController(rootViewController: menuViewController)
-                window.rootViewController = navigationController
-            } else {
-                let splashViewController = UIStoryboard(name: "Splash", bundle: .main).instantiateViewController(withIdentifier: "SplashViewController")
-                let navigationController = UINavigationController(rootViewController: splashViewController)
-                window.rootViewController = navigationController
-            }
-        
+        let rootNavigationVC = UIStoryboard(name: "Splash", bundle: .main).instantiateViewController(withIdentifier: "RootNavigationViewController")
+        window.rootViewController = rootNavigationVC
         window.makeKeyAndVisible()
         guard let _ = (scene as? UIWindowScene) else { return }
     }

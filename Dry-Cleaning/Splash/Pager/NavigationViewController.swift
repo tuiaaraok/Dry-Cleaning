@@ -19,7 +19,5 @@ class NavigationViewController: UINavigationController {
         navBarAppearance.shadowColor = .clear
         navigationBar.standardAppearance = navBarAppearance
         navigationBar.scrollEdgeAppearance = navBarAppearance
-//        navigationBar.subviews[1]
-//            .constraints.first(where: {$0.identifier == "UIView-Encapsulated-Layout-Height"})?.constant = 62
     }
 }

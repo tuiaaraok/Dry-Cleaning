@@ -62,7 +62,7 @@ class SplashViewController: UIViewController {
     }
     
     func goToMenu() {
-        UserDefaults.standard.set(true, forKey: .hasLaunchedBeforeKey)
+        UserDefaults.standard.set(true, forKey: .passedOnBoardKey)
         let menuVC = MenuViewController(nibName: "MenuViewController", bundle: nil)
         let navigationController = NavigationViewController(rootViewController: menuVC)
         navigationController.setAsRoot()
