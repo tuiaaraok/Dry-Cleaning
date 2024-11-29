@@ -97,19 +97,19 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="WYL-F6-ZVB">
-                                <rect key="frame" x="111.66666666666669" y="790" width="170" height="18"/>
+                                <rect key="frame" x="101.66666666666669" y="790" width="190" height="18"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="djM-R6-0E6">
-                                        <rect key="frame" x="0.0" y="0.0" width="74" height="18"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="84" height="18"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="18" id="3FD-k1-yIe"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" title="Terms of use"/>
+                                        <state key="normal" title="   Terms of use"/>
                                     </button>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ggN-eB-f73">
-                                        <rect key="frame" x="81.999999999999986" y="0.0" width="1" height="18"/>
+                                        <rect key="frame" x="91.999999999999986" y="0.0" width="1" height="18"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hhw-Mi-AZS">
                                                 <rect key="frame" x="0.0" y="4" width="1" height="10"/>
@@ -130,15 +130,21 @@
                                         </constraints>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GGZ-RP-zVa">
-                                        <rect key="frame" x="91" y="0.0" width="79" height="18"/>
+                                        <rect key="frame" x="101" y="0.0" width="89" height="18"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="18" id="Y4b-9U-AeR"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" title="Privacy Policy"/>
+                                        <state key="normal" title="Privacy Policy   "/>
                                     </button>
                                 </subviews>
+                                <color key="backgroundColor" systemColor="labelColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="e4v-R9-lvO">
                                 <rect key="frame" x="28" y="720" width="337" height="46"/>
@@ -235,6 +241,9 @@
         <namedColor name="Background">
             <color red="0.59600001573562622" green="0.17599999904632568" blue="0.17599999904632568" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
